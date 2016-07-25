@@ -254,6 +254,9 @@ div.authorimage {
   margin-right: 17px;
   float: left;
 }
+a.authorurl {
+    color: #596364;
+}
 h1.post-title {
   margin-top: 35px;
 }
@@ -654,6 +657,14 @@ section.bloginfo {
   margin-bottom: -15px;
 }
 
+.author-avatar {
+    width: 1.4em;
+    height: 1.4em;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
 section.author .meta {
   font-size: 12px;
   line-height: 19px;
@@ -666,7 +677,8 @@ section.author .meta a {
   color: #bbbbbb;
 }
 
-h3.posts-tagged {
+h3.posts-tagged,
+h3.posts-by {
   margin: -0.5em auto 0;
   text-align: center;
   max-width: 600px;
@@ -675,4 +687,55 @@ h3.posts-tagged {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 16px;
+}
+
+.not-found header h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.not-found section {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+
+.search-form {
+    max-width: 350px;
+    margin: 50px auto;
+    box-sizing: border-box;
+}
+
+.search-form::after {
+    content: ' ';
+    display: table;
+    clear: both;
+}
+
+.search-form input,
+.search-form button {
+    font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: inherit;
+    padding: 5px 10px;
+}
+
+.search-form input {
+    width: calc(80% - 10px);
+    float: left;
+    border: solid 1px #ccc;
+    background: white;
+    margin-right: 10px;
+}
+
+.search-form button {
+    width: 20%;
+    float: left;
+    border: solid 1px #ddd;
+    background: #ddd;
 }

@@ -1,25 +1,24 @@
-{{!< default}}
+{{!-- The tag below includes the header - partials/header.hbs --}}
+{{> header}}
 
 <main class="content" role="main">
 
     <article class="{{post_class}}">
-    {{#post}}
 
-        <header>
-            <h1 class="post-title">{{{title}}}</h1>
-        </header>
+        {{#post}}
+            <header>
+                <h1 class="post-title">{{{title editable="true"}}}</h1>
+            </header>
 
-        <section class="post-content">
-            {{content}}
-            <br>
-        </section>
-
-    {{/post}}
-
-    {{!> comments-disqus}}
-    {{!> comments-facebook}}
-    {{!> comments-google-plus}}
+            <section class="post-content">
+                {{content editable="true"}}
+                <br>
+            </section>
+        {{/post}}
 
     </article>
 
 </main>
+
+{{!-- The tag below includes the footer - partials/footer.hbs --}}
+{{> footer}}

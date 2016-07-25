@@ -3,15 +3,11 @@
 
 <main class="content" role="main">
 
-    {{#tag}}
-        <h3 class="posts-tagged"><i class="fa fa-fw fa-tag"></i> {{name}}</h3>
-    {{/tag}}
-
     {{> loop}}
 
     {{> pagination}}
 
 </main>
 
-{{!-- The tag below includes the header - partials/footer.hbs --}}
+{{!-- The tag below includes the footer - partials/footer.hbs --}}
 {{> footer}}

@@ -1,0 +1,9 @@
+{
+    "name": "Steam",
+    "description": "A fork of the Steam Ghost theme by @epistrephein.",
+    "version": "1.5.0",
+    "requires": "1.0.0",
+    "author": "Cory LaViska",
+    "license": "MIT",
+    "url": "https://github.com/postleaf/steam"
+}

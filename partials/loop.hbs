@@ -1,0 +1,12 @@
+{{#each posts}}
+    <article class="preview">
+        <header>
+            <h1 class="post-title"><a href="{{post_url}}">{{{title}}}</a></h1>
+            <div class="post-meta"><time datetime="{{date format='%Y-%m-%d'}}">{{date format="%e %B %Y"}}</time></div>
+        </header>
+        <section class="post-excerpt">
+            <a class="excerptlink" href="{{post_url}}"><p>{{excerpt words="90"}}&hellip;</p></a>
+            <p class="readmore"><a href="{{post_url}}">Keep reading <i class="fa fa-angle-double-right" style="padding-left: 5px;"></i></a></p>
+        </section>
+    </article>
+{{/each}}

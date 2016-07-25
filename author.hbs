@@ -1,0 +1,25 @@
+{{!-- The tag below includes the header - partials/header.hbs --}}
+{{> header}}
+
+<main class="content" role="main">
+
+    {{#author}}
+        <h3 class="posts-by">
+            {{#if avatar}}
+                <img class="author-avatar" src="{{url avatar}}" alt="Author avatar">
+            {{else}}
+                <i class="fa fa-fw fa-user"></i>
+            {{/if}}
+
+            {{name}}
+        </h3>
+    {{/author}}
+
+    {{> loop}}
+
+    {{> pagination}}
+
+</main>
+
+{{!-- The tag below includes the header - partials/footer.hbs --}}
+{{> footer}}
