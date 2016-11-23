@@ -1,6 +1,6 @@
 # Steam
 
-Steam is a minimal and responsive theme for [Postleaf](https://www.postleaf.org/), forked from [@epistrephein’s](https://github.com/epistrephein) Ghost theme.
+Steam is a minimal and responsive theme for [Leafpub](https://www.leafpub.org/), forked from [@epistrephein’s](https://github.com/epistrephein) Ghost theme.
 
 It features a clean and essential style with single column layout, beautiful typography, two colors, customizable partials and some nice javascript enhancements.
 
