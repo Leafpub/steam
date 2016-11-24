@@ -41,5 +41,6 @@
         <h1 class="blog-title"><a href="{{url}}">{{@settings.title}}</a></h1>
         <h1 class="blog-subtitle">{{@settings.tagline}}</h1>
     </header>
-
-    {{> navigation}}
+    {{#is @settings.maintenance 'off'}}
+        {{> navigation}}
+    {{/is}}

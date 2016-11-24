@@ -1,0 +1,19 @@
+{{!-- The tag below includes the header - partials/header.hbs --}}
+{{> header}}
+
+<main class="content" role="main">
+
+    <article class="not-found">
+        <header>
+            <h1>{{L 'maintenance'}}</h1>
+        </header>
+
+        <section>
+            {{content}}
+        </section>
+    </article>
+
+</main>
+
+{{!-- The tag below includes the footer - partials/footer.hbs --}}
+{{> footer}}
