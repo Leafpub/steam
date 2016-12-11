@@ -5,5 +5,8 @@
     "requires": "1.0.0",
     "author": "Cory LaViska",
     "license": "MIT",
-    "url": "https://github.com/leafpub/steam"
+    "url": "https://github.com/leafpub/steam",
+    "error_templates": {
+        "503":"partials/maintenance.hbs"
+    }
 }
